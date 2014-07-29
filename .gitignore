@@ -1,0 +1,8 @@
+dea/
+**/.build
+*.log
+**/*.log
+node_modules/
+**/node_modules
+*/**/.DS_Store
+
