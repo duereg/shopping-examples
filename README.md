@@ -1,4 +1,4 @@
-# with.shoppingcart
+# shopping-examples
 
 Kraken with Shopping Cart and PayPal integration
 
