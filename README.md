@@ -3,16 +3,16 @@
 Kraken with Shopping Cart and PayPal integration
 
 ## Prerequisites
-* This example requires that [MongoDB](http://www.mongodb.org/downloads) is installed and running on it's default port.
-* You will -- of course -- need [Node](http://nodejs.org) (Version >= 0.10.22 preferred)
+* This example requires you install [MongoDB](http://www.mongodb.org/downloads) and it's running on the default port.
+* You will need [Node](http://nodejs.org) (Version >= 0.10.22 preferred)
 
 ## Installation
-This example is a part of the kraken-examples repository. Clone, install and run.
 
 ```shell
-$ git clone git@github.com:krakenjs/kraken-examples.git
-$ cd kraken-examples/with.shoppingcart
+$ git clone git@github.com:duereg/shopping-examples.git
+$ cd shopping-examples
 $ npm install
+$ grunt build
 $ npm start
 ```
 
@@ -25,7 +25,7 @@ $ npm start
 
 ### lib/spec.js
 
-`lib/spec.js` holds the `onconfig` event handler. You can see in the main `index.js` file, `lib/spec`'s onconfig handler is passed in with the line: 
+`lib/spec.js` holds the `onconfig` event handler. You can see in the main `index.js` file, `lib/spec`'s onconfig handler is passed in with the line:
 
 ```javascript
 app.use(kraken(options))
