@@ -16,6 +16,8 @@
                 <li><a href="/cart">{@pre type="content" key="cart"/}</a></li>
                 <li><a href="/knockout">{@pre type="content" key="knockout"/}</a></li>
                 <li><a href="/rivets">{@pre type="content" key="rivets"/}</a></li>
+                <li><a href="/react">{@pre type="content" key="react"/}</a></li>
+
             </ul>
         </nav>
         <div class="lang">

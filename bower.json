@@ -1,0 +1,23 @@
+{
+  "name": "shopping-examples",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/duereg/shopping-examples",
+  "authors": [
+    "Matt Blair <m.blair@modcloth.com>",
+    "Jason Benterou <jason.benterou@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.11.1"
+  }
+}
